@@ -24,6 +24,7 @@ export class LandingPageComponent implements OnInit {
     this.isLoading = true;
     this.getJokesService.getJoke().subscribe((resp) => {
       this.daJoke = resp['joke'];
+      this.isLoading = false;
     });
 
   }

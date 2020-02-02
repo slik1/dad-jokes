@@ -1,7 +1,11 @@
-<img src="../../assets/homer_laughing_1.jpg" class="img-thumbnail">
-<br>
-<div *ngIf="!isLoading" class="joke_container">{{daJoke}}</div>
-<mat-spinner diameter="20" *ngIf="isLoading"></mat-spinner>
-<br><br>
-
-<button (click)="loadNewJoke()" mat-raised-button color="primary">Load New Joke</button>
+<div class="container">
+    
+    <div class="joke_and_spinner">
+            
+        <div *ngIf="!isLoading" class="joke_container">{{daJoke}}</div>
+        <mat-spinner diameter="20" *ngIf="isLoading"></mat-spinner>
+            
+    </div>   
+    
+    <button (click)="loadNewJoke()" mat-raised-button color="accent">Load New Joke</button>
+</div>
