@@ -1,0 +1,7 @@
+<br>
+{{daJoke}}
+<br><br>
+<mat-spinner *ngIf="isImageLoading"></mat-spinner>
+<img [src]="daImage" class="img-thumbnail" *ngIf="!isImageLoading">
+<br><br>
+<button (click)="loadNewJoke()" mat-raised-button color="primary">Load New Joke</button>
