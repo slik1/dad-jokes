@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-<a href="http://slikinteractive.com/dad-jokes" target="_blank">http://slikinteractive.com/dad-jokes</a>
+[http://slikinteractive.com/dad-jokes](http://slikinteractive.com/dad-jokes)
 
 ## Development server
 
