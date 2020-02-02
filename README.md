@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
-## DEMO:
+## Demo
 
-[http://slikinteractive.com/dad-jokes](http://slikinteractive.com/dad-jokes)
+<a href="http://slikinteractive.com/dad-jokes" target="_blank">http://slikinteractive.com/dad-jokes</a>
 
 ## Development server
 
